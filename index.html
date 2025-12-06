@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display">
+        <button onclick="allClear()" class="symbol">AC</button>
+        <button onclick="Delete_lastVal()" class="symbol">&#9003;</button>
+        <button onclick="addInput('**')" class="symbol">X<sup>2</sup></button>
+        <button onclick="addInput('/')" class="symbol">&divide;</button>
+        <button onclick="addInput('7')"  class="numbers">7</button>
+        <button onclick="addInput('8')" class="numbers">8</button>
+        <button onclick="addInput('9')" class="numbers">9</button>
+        <button onclick="addInput('*')" class="symbol">X</button>
+        <button onclick="addInput('4')" class="numbers">4</button>
+        <button onclick="addInput('5')" class="numbers">5</button>
+        <button onclick="addInput('6')" class="numbers">6</button>
+        <button onclick="addInput('-')" class="symbol">-</button>
+        <button onclick="addInput('1')" class="numbers">1</button>
+        <button onclick="addInput('2')" class="numbers">2</button>
+        <button onclick="addInput('3')" class="numbers">3</button>
+        <button onclick="addInput('+')" class="symbol">+</button>
+        <button onclick="addInput('%')" class="symbol">%</button>
+        <button onclick="addInput('0')" class="numbers">0</button>
+        <button onclick="addInput('.')" class="numbers">.</button>
+        <button onclick="Evaluate()" class="symbol">=</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
